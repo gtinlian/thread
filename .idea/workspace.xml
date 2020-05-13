@@ -23,6 +23,14 @@
     <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
     <option name="showStatusBarWidget" value="true" />
+    <treeState key="project">
+      <selectedPath>
+        <pathElement>
+          <option name="myNodeId" value="helperText" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.LinkedTextDescriptor" />
+        </pathElement>
+      </selectedPath>
+    </treeState>
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
@@ -35,8 +43,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27f007d0-58dd-4b9b-a27d-4bc3c3b5e9f2" name="Default Changelist" comment="">
+    <list default="true" id="27f007d0-58dd-4b9b-a27d-4bc3c3b5e9f2" name="Default Changelist" comment="在多个线程同时受到中断信号时产生异常">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/thread.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/thread.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/thread.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/thread.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +64,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
@@ -62,7 +84,13 @@
     <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.quicklists" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RunManager">
     <configuration name="thread" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="thread" TARGET_NAME="thread" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="thread" RUN_TARGET_NAME="thread">
@@ -82,7 +110,11 @@
       <option name="presentableId" value="Default" />
       <updated>1588903964479</updated>
       <workItem from="1588903966166" duration="157000" />
-      <workItem from="1588904137280" duration="264000" />
+      <workItem from="1588904137280" duration="11740000" />
+      <workItem from="1589189382416" duration="3727000" />
+      <workItem from="1589246144387" duration="1659000" />
+      <workItem from="1589255579593" duration="4000" />
+      <workItem from="1589331834808" duration="19095000" />
     </task>
     <task id="LOCAL-00001" summary="thread">
       <created>1588904173655</created>
@@ -91,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588904173655</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="thread">
+      <created>1588904567047</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588904567047</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,10 +145,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="537" y="199" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1588904006904" />
-    <state x="479" y="134" key="CommitChangelistDialog2" timestamp="1588904173120">
+    <state x="479" y="134" key="CommitChangelistDialog2" timestamp="1589357852457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="479" y="134" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588904173120" />
+    <state x="479" y="134" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589357852457" />
     <state x="169" y="107" key="DiffContextDialog" timestamp="1588904469410">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -122,17 +161,61 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="809" y="431" width="273" height="291" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588904059881" />
-    <state x="446" y="183" key="SettingsEditor" timestamp="1588904342513">
+    <state width="1877" height="204" key="GridCell.Tab.0.bottom" timestamp="1589357852525">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="446" y="183" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588904342513" />
-    <state x="537" y="274" key="Vcs.Push.Dialog.v2" timestamp="1588904489838">
+    <state width="1877" height="204" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589357852525" />
+    <state width="1877" height="204" key="GridCell.Tab.0.center" timestamp="1589357852524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="537" y="274" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588904489838" />
-    <state x="738" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588904532360">
+    <state width="1877" height="204" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589357852524" />
+    <state width="1877" height="204" key="GridCell.Tab.0.left" timestamp="1589357852524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="738" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588904532360" />
+    <state width="1877" height="204" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589357852524" />
+    <state width="1877" height="204" key="GridCell.Tab.0.right" timestamp="1589357852525">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="204" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589357852525" />
+    <state width="937" height="348" key="GridCell.Tab.1.bottom" timestamp="1589246090475">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="937" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589246090475" />
+    <state width="937" height="348" key="GridCell.Tab.1.center" timestamp="1589246090475">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="937" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589246090475" />
+    <state width="937" height="348" key="GridCell.Tab.1.left" timestamp="1589246090475">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="937" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589246090475" />
+    <state width="937" height="348" key="GridCell.Tab.1.right" timestamp="1589246090475">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="937" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589246090475" />
+    <state x="446" y="183" key="SettingsEditor" timestamp="1589190794924">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="446" y="183" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589190794924" />
+    <state x="537" y="274" key="Vcs.Push.Dialog.v2" timestamp="1589357878692">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="537" y="274" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589357878692" />
+    <state x="738" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589353678498">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="738" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589353678498" />
+    <state x="680" y="311" key="git4idea.merge.GitPullDialog" timestamp="1589357740038">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="680" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589357740038" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1589339160132">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589339160132" />
+    <state x="480" y="314" width="672" height="678" key="search.everywhere.popup" timestamp="1589340221898">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="480" y="314" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589340221898" />
   </component>
 </project>

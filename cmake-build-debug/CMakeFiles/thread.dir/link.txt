@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/thread.dir/main.cpp.o  -o thread 
+/usr/bin/c++  -g   CMakeFiles/thread.dir/main.cpp.o  -o thread  -L/usr/lib64/mysql -Wl,-rpath,/usr/lib64/mysql -lpthread 
